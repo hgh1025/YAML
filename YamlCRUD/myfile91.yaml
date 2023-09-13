@@ -1,9 +1,13 @@
-Name: 홍길동
-FirstName: 길동
-LastName: 홍
-Email: honggildong@email.com
-Phone: 010-1234-5678
-Address: 서울시 중구
-City:
-- 서울
-- 부산
+PersonalInfo[Level1]:
+  BasicInfo[Level2]:
+    Name[Level3]: 홍길동
+    FirstName[Level3]: 길동
+    LastName[Level3]: 홍
+  ContactInfo[Level2]:
+    Email[Level3]: honggildong@email.com
+    Phone[Level3]: 010-1234-5678
+    Address[Level3]: 서울시 중구
+  Location[Level2]:
+    City[Level3]:
+      - 서울
+      - 부산

@@ -1,0 +1,39 @@
+﻿@using System.Collections.Generic
+@model Dictionary<object, object>
+
+<form asp-action="Submit" method="post" asp-controller="Home">
+    @Html.Raw(RenderForm(Model))
+</form>
+
+@functions {
+    string RenderForm(object data)
+    {
+        string html = "";
+
+        if (data is Dictionary<object, object> dictData)
+        {
+            foreach (var item in dictData)
+            {
+                if (item.Value is Dictionary<object, object> subData)
+                {
+                    html += $"<fieldset><legend>{item.Key}</legend>{RenderForm(subData)}</fieldset>";
+                }
+                else if (item.Value is List<object> listData)
+                {
+                    html += $"<label>{item.Key}</label><select name='{item.Key}'>";
+                    foreach (var listItem in listData)
+                    {
+                        html += $"<option value='{listItem}'>{listItem}</option>";
+                    }
+                    html += "</select><br />";
+                }
+                else
+                {
+                    html += $"<label>{item.Key}</label><input type='text' name='{item.Key}' value='{item.Value}' /><br />";
+                }
+            }
+        }
+
+        return html;
+    }
+}

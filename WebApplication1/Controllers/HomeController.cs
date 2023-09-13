@@ -24,13 +24,22 @@ namespace WebApplication1.Controllers
         public IActionResult Index()
         {
             var deserializer = new DeserializerBuilder().Build();
-            using (var reader = new StreamReader($@"D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\myfile91.yaml"))
+            using (var reader = new StreamReader($@"D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\yamlfile3.yaml"))
             {
                 var yamldata = deserializer.Deserialize<Dictionary<string, object>>(reader);
                 return View(yamldata);
             }
         }
-
+        [HttpGet]
+        public IActionResult TreeView()
+        {
+            var deserializer = new DeserializerBuilder().Build();
+            using (var reader = new StreamReader($@"D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\myfile91.yaml"))
+            {
+                var yamldata = deserializer.Deserialize<Dictionary<object, object>>(reader);
+                return View(yamldata);
+            }
+        }
         [HttpGet]
         public IActionResult Submit() { return View(); }
         [HttpPost]
