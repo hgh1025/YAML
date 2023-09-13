@@ -1,0 +1,17 @@
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\bin\Debug\net6.0\YamlCRUD.exe
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\bin\Debug\net6.0\YamlCRUD.deps.json
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\bin\Debug\net6.0\YamlCRUD.runtimeconfig.json
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\bin\Debug\net6.0\YamlCRUD.dll
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\bin\Debug\net6.0\YamlCRUD.pdb
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\bin\Debug\net6.0\YamlDotNet.dll
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.csproj.AssemblyReference.cache
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.GeneratedMSBuildEditorConfig.editorconfig
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.AssemblyInfoInputs.cache
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.AssemblyInfo.cs
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.csproj.CoreCompileInputs.cache
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.csproj.CopyComplete
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.dll
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\refint\YamlCRUD.dll
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.pdb
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\YamlCRUD.genruntimeconfig.cache
+D:\개인프로젝트\Yaml\YamlCRUD\YamlCRUD\obj\Debug\net6.0\ref\YamlCRUD.dll

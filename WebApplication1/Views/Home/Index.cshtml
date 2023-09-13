@@ -1,0 +1,26 @@
+﻿@{
+    IDictionary<string, object> formData = (IDictionary<string, object>)Model;
+}
+
+<form asp-action="Submit" method="post" asp-controller="Home">
+    @foreach (var field in formData)
+    {
+        if (field.Key == "City" && field.Value is List<object> cityList)
+        {
+            <label>@field.Key</label>
+            <select name="@field.Key">
+                @foreach (var city in cityList)
+                {
+                    <option value="@city">@city</option>
+                }
+            </select>
+        }
+        else
+        {
+            <label>@field.Key</label>
+            <input type="text" name="@field.Key" value="@field.Value" />
+        }
+        <br />
+    }
+    <input type="submit" value="제출" />
+</form>
